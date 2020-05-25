@@ -13,11 +13,7 @@ const database = {
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://www.facebook.com/amikecallies',
-      twitter: '',
-      pinterest: '',
-      behance: '',
       linkedin: 'https://www.linkedin.com/in/adrian-callies-05287894',
-      dribbble: '',
       github: 'https://github.com/amikecallies'
     },
     brandImage: '/images/portfolio-profile-pic-2.jpg',
