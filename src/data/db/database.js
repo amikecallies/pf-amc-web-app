@@ -12,13 +12,13 @@ const database = {
     address: '121 King Street, Melbourne, Australia',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: 'https://www.facebook.com/amikecallies',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/adrian-callies-05287894',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/amikecallies'
     },
     brandImage: '/images/portfolio-profile-pic-2.jpg',
     aboutImage: '/images/about-image.jpg',
