@@ -3,12 +3,12 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Adrian Callies',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+    aboutContent: "I am a software engineer. I can provide clean code that is optimal but simple. I also build dynamic applications to serve people's needs in world that is technologically changing...",
     age: 24,
-    phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
+    phone: '210-387-4999',
+    nationality: 'African-American',
+    language: 'English',
+    email: 'acallies15@apu.edu',
     address: '121 King Street, Melbourne, Australia',
     freelanceStatus: 'Available',
     socialLinks: {

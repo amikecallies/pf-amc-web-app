@@ -5,8 +5,15 @@
     "axios": "^0.19.0",
     "axios-mock-adapter": "^1.17.0",
     "bootstrap": "^4.3.1",
+    "canvas-prebuilt": "^2.0.0-alpha.14",
     "disqus-react": "^1.0.7",
     "fslightbox-react": "^1.4.0",
+    "jest": {
+      "setupFiles": [
+        "<rootDir>\\src\\test-setup.js",
+        "<rootDir>\\config\\polyfills.js"
+      ]
+    },
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -39,5 +46,8 @@
       "last 5 firefox version",
       "last 5 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest-canvas-mock": "^2.2.0"
   }
 }
