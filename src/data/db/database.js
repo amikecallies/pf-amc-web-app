@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Adrian Callies',
-    aboutContent: "I am a software engineer. I can provide clean code that is optimal but simple. I also build dynamic applications to serve people's needs in world that is technologically changing...",
+    aboutContent: "I am a software engineer. I can provide clean code that is optimal but simple. I also build dynamic applications to serve people's needs in a world that is technologically changing...",
     age: 24,
     phone: '210-387-4999',
     nationality: 'African-American',

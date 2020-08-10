@@ -38,7 +38,8 @@ function Header(){
                     <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>
-                <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" href="https://nuclearthemes.com">NuclearThemes</a></b></p>
+                {/*<p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" href="https://nuclearthemes.com">NuclearThemes</a></b></p>*/}
+                <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/adrian-callies-05287894">Adrian Callies</a></b></p>
             </div>
         </nav>
     )
