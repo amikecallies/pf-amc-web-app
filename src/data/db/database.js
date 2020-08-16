@@ -4,22 +4,22 @@ const database = {
   information: {
     name: 'Adrian Callies',
     aboutContent: "I am a software engineer. I can provide clean code that is optimal but simple. I also build dynamic applications to serve people's needs in a world that is technologically changing...",
-    age: 24,
+    age: 25,
     phone: '210-387-4999',
     nationality: 'African-American',
     language: 'English',
     email: 'acallies15@apu.edu',
-    address: '121 King Street, Melbourne, Australia',
-    freelanceStatus: 'Available',
+    location: 'Los Angeles, CA, USA',
+    freelanceStatus: 'Part-Time',
     socialLinks: {
       facebook: 'https://www.facebook.com/amikecallies',
       linkedin: 'https://www.linkedin.com/in/adrian-callies-05287894',
       github: 'https://github.com/amikecallies'
     },
     brandImage: '/images/portfolio-profile-pic-2.jpg',
-    aboutImage: '/images/about-image.jpg',
+    aboutImage: '/images/portfolio-profile-pic-3.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    resumefile: '/files/Resume_AdrianCallies.pdf'
   },
   services: [
     {

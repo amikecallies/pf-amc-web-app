@@ -85,9 +85,10 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more & more
-                  interactive with web animations.
+                  I am a software engineer. I am capable of building and maintaing apps
+                  that consist of clean code, robustness, and are optimal
+                  in design. I've specialized in web development for the past several years
+                  but the mobile world is a journey I've began to explore.
                 </p>
                 <ul>
                   {!information.name ? null : <li>
@@ -108,14 +109,14 @@ function About(){
                   {!information.email ? null : <li>
                     <b>Email</b> {information.email}
                   </li>}
-                  {!information.address ? null : <li>
-                    <b>Address</b> {information.address}
+                  {!information.location ? null : <li>
+                    <b>Location</b> {information.location}
                   </li>}
                   {!information.freelanceStatus ? null : <li>
                     <b>Freelance</b> {information.freelanceStatus}
                   </li>}
                 </ul>
-                <a href={information.cvfile} className="mi-button">Download CV</a>
+                <a href={information.resumefile} className="mi-button">Download Resume</a>
               </div>
             </div>
           </div>
