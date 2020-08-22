@@ -85,10 +85,11 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a software engineer. I am capable of building and maintaing apps
+                  I am a software developer. I am capable of building and maintaing apps
                   that consist of clean code, robustness, and are optimal
-                  in design. I've specialized in web development for the past several years
-                  but the mobile world is a journey I've began to explore.
+                  in design. I can work on both sides of the stack, which are equally important
+                  to me in my work. I've specialized in web development for the past several years
+                  but the mobile world is a journey I've just started to explore.
                 </p>
                 <ul>
                   {!information.name ? null : <li>
@@ -115,6 +116,9 @@ function About(){
                   {!information.freelanceStatus ? null : <li>
                     <b>Freelance</b> {information.freelanceStatus}
                   </li>}
+                  {!information.enterprise ? null : <li>
+                    <b>Enterprise</b> {information.enterprise}
+                  </li>}                  
                 </ul>
                 <a href={information.resumefile} className="mi-button">Download Resume</a>
               </div>

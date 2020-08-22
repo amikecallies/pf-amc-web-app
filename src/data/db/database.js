@@ -8,9 +8,10 @@ const database = {
     phone: '210-387-4999',
     nationality: 'African-American',
     language: 'English',
-    email: 'acallies15@apu.edu',
+    email: 'acallies15@apu.edu, amcallies2018@gmail.com',
     location: 'Los Angeles, CA, USA',
     freelanceStatus: 'Part-Time',
+    enterprise: 'Full-Time',
     socialLinks: {
       facebook: 'https://www.facebook.com/amikecallies',
       linkedin: 'https://www.linkedin.com/in/adrian-callies-05287894',
@@ -18,51 +19,54 @@ const database = {
     },
     brandImage: '/images/portfolio-profile-pic-2.jpg',
     aboutImage: '/images/portfolio-profile-pic-3.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    aboutImageLg: '/images/portfolio-profile-pic-3.jpg',
     resumefile: '/files/Resume_AdrianCallies.pdf'
   },
   services: [
     {
-      title: "Web Design",
-      icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
-      title: "Web Development",
+      title: "Front-End Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Ability to create responsive web and mobile user interfaces cross-platorm for user experience."
     },
     {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      title: "Back-End Development",
+      icon: 'code',
+      details: "Rising proficiency in developing REST API'S with a passion for building scalable Microservices for large distributed systems."
     }
   ],
   reviews: [
     {
       id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      content: "Sean's Review",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: 'Sean Patterson',
+        designation: 'Software Development Director, Fresh Consulting'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "Kristin's Review.",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: 'Kristin Beardsley',
+        designation: 'Sr. Recruiter, Apple'
       }
     },
     {
       id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      content: "Nico's Review.",
       author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
+        name: 'Nicholas Chera',
+        designation: 'Software Engineer, Google'
       }
-    }
+    },
+    {
+      id: 4,
+      content: "Kai's Review.",
+      author: {
+        name: 'Kai Dupe',
+        designation: 'Azure Technical Trainer, Microsoft'
+      }
+    }    
   ],
   skills: [
     {
