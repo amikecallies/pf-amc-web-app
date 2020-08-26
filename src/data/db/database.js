@@ -61,10 +61,10 @@ const database = {
     },
     {
       id: 4,
-      content: "Kai's Review.",
+      content: "Chuck's Review.",
       author: {
-        name: 'Kai Dupe',
-        designation: 'Azure Technical Trainer, Microsoft'
+        name: 'Chuck Lohr',
+        designation: 'Software Development Consultant, CalPortland Company'
       }
     }    
   ],
