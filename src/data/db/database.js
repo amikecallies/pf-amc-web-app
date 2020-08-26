@@ -26,7 +26,7 @@ const database = {
     {
       title: "Front-End Development",
       icon: 'code',
-      details: "Ability to create responsive web and mobile user interfaces cross-platorm for user experience."
+      details: "Ability to create responsive web and mobile user interfaces cross-platorm for user experiences."
     },
     {
       title: "Back-End Development",
