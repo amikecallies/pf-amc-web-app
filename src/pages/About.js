@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import Slider from "react-slick";
@@ -70,9 +71,9 @@ function About(){
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
                 />
-                <span className="mi-about-image-icon">
+                {/*<span className="mi-about-image-icon">
                   <Icon.ZoomIn />
-                </span>
+                </span>*/}
                 <FsLightbox
                   toggler={toggler}
                   sources={[information.aboutImageLg]}

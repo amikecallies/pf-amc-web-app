@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import axios from 'axios';
 import LineIcon from 'react-lineicons';
+import logo from './light-blue-fish.svg';
 
 function Header(){
+    
     const [information, setInformation] = useState("");
     const [navigationToggler, setNavigationToggler] = useState(false);
 
@@ -29,6 +31,8 @@ function Header(){
                         <img src={information.brandImage} alt="brandimage"/>
                     </Link>
                 </div>
+                
+                <img src={logo} width={160} height={140} alt="Logo" />
                 
                 <ul className="mi-header-menu">
                     <li><NavLink exact to="/"><span>Home</span></NavLink></li>

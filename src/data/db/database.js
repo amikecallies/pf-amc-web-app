@@ -71,7 +71,7 @@ const database = {
   skills: [
     {
       title: "HTML5",
-      value: 80
+      value: 75
     },
     {
       title: "CSS3",
@@ -79,7 +79,7 @@ const database = {
     },
     {
       title: "Javascript",
-      value: 80
+      value: 75
     },
     {
       title: "C#",
@@ -87,7 +87,7 @@ const database = {
     },
     {
       title: "ReactJS",
-      value: 80
+      value: 65
     },
     {
       title: "Java",
@@ -292,35 +292,35 @@ const database = {
         year: "2020 - Present",
         position: "Information Technology Associate",
         company: "Ingram Micro",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 2,
         year: "2018 - 2020",
         position: "Associate Software Developer",
         company: "CalPortland",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 3,
         year: "2018",
         position: "Software Developer Intern",
         company: "CalPortland",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 4,
         year: "2017",
         position: "Software Developer Intern",
         company: "CalPortland",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 5,
         year: "2016",
         position: "Software Developer Intern",
         company: "Power Settlements",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       }
     ],
     educationExperience: [
@@ -329,21 +329,21 @@ const database = {
         year: "2019 - Present",
         graduation: "Master Arts of Pastoral Studies",
         university: "Azusa Pacific University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 2,
         year: "2015 - 2018",
         graduation: "Bachelor of Science: Computer Science",
         university: "Azusa Pacific University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 3,
         year: "2011 - 2014",
         graduation: "Higher School Diploma",
         university: "Kimball Union Academy",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       }
     ]
   },
