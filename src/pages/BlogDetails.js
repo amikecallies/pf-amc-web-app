@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown/with-html";
 import axios from "axios";
@@ -7,11 +8,11 @@ import Layout from "../components/Layout";
 function BlogDetails(props) {
   const [content, setContent] = useState("");
   const blogId = props.match.params.id;
-  const blogFile = props.match.params.title;
+  const blogFile = props.match.params.title; 
 
   useEffect(() => {
     axios
-      .get(require(`../blog/${blogFile}.md`))
+      .get(require(`../blog/${blogFile}.md`)) 
       .then(result => {
         setContent(result.data);
       })
@@ -30,12 +31,12 @@ function BlogDetails(props) {
       <div className="mi-blog-details mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <ReactMarkdown source={content} escapeHtml={false}></ReactMarkdown>
-          <div className="mi-blog-details-comments mt-30">
+          {/*<div className="mi-blog-details-comments mt-30">
             <Disqus.DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
             />
-          </div>
+          </div>*/}
         </div>
       </div>
     </Layout>

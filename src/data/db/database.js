@@ -103,13 +103,13 @@ const database = {
     }    
   ],
   portfolios: [
-    {
+    /*{
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
+      title: "My Github",
+      subtitle: "Code Repositories",
       imageUrl: "/images/portfolio-image-1.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      url: 'http://newhomerealtytx.com'
     },
     {
       id: 2,
@@ -283,7 +283,7 @@ const database = {
       subtitle: "Mug with awesome style",
       imageUrl: "/images/portfolio-image-5.jpg",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    }
+    }*/
   ],
   experience: {
     workingExperience: [
@@ -350,14 +350,14 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'Markdown & Html supported blog.',
-      featuredImage: '/images/blog-image-1.jpg',
+      title: 'Coding for Christ!',
+      featuredImage: '/images/typing-image.jpg',
       filesource: '../../blog/markdown-html-supported-blog.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "25",
+      createMonth: 'August',
       createYear: "2020"
     },
-    {
+    /*{
       id: 2,
       title: 'Installing NodeJS on your device.',
       featuredImage: '/images/blog-image-2.jpg',
@@ -482,7 +482,7 @@ const database = {
       createDay: "20",
       createMonth: 'February',
       createYear: "2020"
-    }
+    }*/
   ],
   contactInfo: {
     phoneNumbers: ['+1 210-387-4999'],
