@@ -2,6 +2,7 @@
   "name": "pf-amc-web-app",
   "version": "2.0.0",
   "dependencies": {
+    "aws-sdk": "^2.739.0",
     "axios": "^0.19.0",
     "axios-mock-adapter": "^1.17.0",
     "bootstrap": "^4.3.1",

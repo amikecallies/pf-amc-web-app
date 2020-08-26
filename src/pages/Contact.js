@@ -3,6 +3,7 @@ import axios from 'axios';
 import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
+import submitEmail from "./SubmitEmail";
 
 function Contact(){
   const [phoneNumbers, setPhoneNumbers] = useState([]);
@@ -33,7 +34,9 @@ function Contact(){
       setMessage('Message is required');
     } else{
       setError(false);
-      setMessage('You message has been sent!!!');
+      
+      submitEmail(formdata.name, formdata.email, formdata.subject, formdata.message);
+      setMessage('You have reached out to Adrian! He will get back to you!');
     }
   }
   const handleChange = (event) => {
@@ -141,7 +144,7 @@ function Contact(){
                       <Icon.MapPin/>
                     </span>
                     <div className="mi-contact-infoblock-content">
-                      <h6>Address</h6>
+                      <h6>Location</h6>
                       <p>{address}</p>
                     </div>
                   </div>

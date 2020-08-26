@@ -8,7 +8,7 @@ const database = {
     phone: '210-387-4999',
     nationality: 'African-American',
     language: 'English',
-    email: 'acallies15@apu.edu, amcallies2018@gmail.com',
+    email: 'acallies15@apu.edu',
     location: 'Los Angeles, CA, USA',
     freelanceStatus: 'Part-Time',
     enterprise: 'Full-Time',
@@ -71,28 +71,36 @@ const database = {
   skills: [
     {
       title: "HTML5",
-      value: 95
+      value: 80
     },
     {
       title: "CSS3",
-      value: 90
+      value: 75
     },
     {
       title: "Javascript",
-      value: 70
+      value: 80
     },
     {
-      title: "jQuery",
-      value: 85
+      title: "C#",
+      value: 70
     },
     {
       title: "ReactJS",
       value: 80
     },
     {
-      title: "Photoshop",
-      value: 65
-    }
+      title: "Java",
+      value: 70
+    },
+    {
+      title: "SQL",
+      value: 70
+    }, 
+    {
+      title: "NoSQL",
+      value: 50
+    }    
   ],
   portfolios: [
     {
@@ -281,46 +289,60 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
+        year: "2020 - Present",
+        position: "Information Technology Associate",
+        company: "Ingram Micro",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
+        year: "2018 - 2020",
+        position: "Associate Software Developer",
+        company: "CalPortland",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
+        year: "2018",
+        position: "Software Developer Intern",
+        company: "CalPortland",
+        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      },
+      {
+        id: 4,
+        year: "2017",
+        position: "Software Developer Intern",
+        company: "CalPortland",
+        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      },
+      {
+        id: 5,
+        year: "2016",
+        position: "Software Developer Intern",
+        company: "Power Settlements",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
+        year: "2019 - Present",
+        graduation: "Master Arts of Pastoral Studies",
+        university: "Azusa Pacific University",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
+        year: "2015 - 2018",
+        graduation: "Bachelor of Science: Computer Science",
+        university: "Azusa Pacific University",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {
         id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
+        year: "2011 - 2014",
+        graduation: "Higher School Diploma",
+        university: "Kimball Union Academy",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       }
     ]
@@ -463,9 +485,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+1 210-387-4999'],
+    emailAddress: ['Please submit the form on this page to send Adrian an email.'],
+    address: 'Los Angeles, CA, USA'
   }
 }
 

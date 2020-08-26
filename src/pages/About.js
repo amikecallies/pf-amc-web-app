@@ -107,9 +107,6 @@ function About(){
                   {!information.language ? null : <li>
                     <b>Languages</b> {information.language}
                   </li>}
-                  {!information.email ? null : <li>
-                    <b>Email</b> {information.email}
-                  </li>}
                   {!information.location ? null : <li>
                     <b>Location</b> {information.location}
                   </li>}
