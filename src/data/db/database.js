@@ -103,14 +103,14 @@ const database = {
     }    
   ],
   portfolios: [
-    /*{
+    {
       id: 1,
-      title: "My Github",
-      subtitle: "Code Repositories",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'http://newhomerealtytx.com'
-    },
+      title: "The New Home Realty App 2.0",
+      subtitle: "A simple web application for a private Real Estate company (Still in beta)",
+      imageUrl: "/images/warning-image.jpg",
+      largeImageUrl: ["/images/warning-image.jpg"],
+      url: 'https://inspiring-borg-b234a2.netlify.app' //http://newhomerealtytx.com
+    }/*,
     {
       id: 2,
       title: "Coffee Mug",
