@@ -118,7 +118,7 @@ function About(){
                     <b>Enterprise</b> {information.enterprise}
                   </li>}                  
                 </ul>
-                <a href={information.resumefile} className="mi-button">Download Resume</a>
+                <a href={information.resumefile} target="_blank" className="mi-button">Download Resume</a>
               </div>
             </div>
           </div>
