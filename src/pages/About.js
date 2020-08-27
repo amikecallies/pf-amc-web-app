@@ -88,8 +88,8 @@ function About(){
                 <p>
                   I am a software developer. I am capable of building and maintaing apps
                   that consist of clean code, robustness, and are optimal
-                  in design. I can work on both sides of the stack, which are equally important
-                  to me in my work. I've specialized in web development for the past several years
+                  in design. I can work on various sides of the stack (Front & Back), which are equally important
+                  to me in my craft. I've specialized in web development for the past several years
                   but the mobile world is a journey I've just started to explore.
                 </p>
                 <ul>

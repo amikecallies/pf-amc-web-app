@@ -37,7 +37,7 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "Sean's Review",
+      content: "Adrian has a keen insight and knack for solving tricky problems. He is mindful of the entire system and not just an individual feature when building software. I would work with him any chance I could!",
       author: {
         name: 'Sean Patterson',
         designation: 'Software Development Director, Fresh Consulting'
@@ -352,29 +352,29 @@ const database = {
       id: 1,
       title: 'Coding for Christ!',
       featuredImage: '/images/typing-image.jpg',
-      filesource: '../../blog/markdown-html-supported-blog.md',
+      filesource: '../../blog/coding-4-christ.md',
       createDay: "25",
       createMonth: 'August',
       createYear: "2020"
     },
-    /*{
+    {
       id: 2,
-      title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
-      createMonth: 'February',
+      title: 'Our "Code" is not our own',
+      featuredImage: '/images/blue-matrix-code.jpg',
+      filesource: '../../blog/our-work-not-ours.md',
+      createDay: "27",
+      createMonth: 'August',
       createYear: "2020"
     },
     {
       id: 3,
-      title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
-      createMonth: 'February',
+      title: 'The Dev\'s excellence of Christ',
+      featuredImage: '/images/follow-me-christ.jpg',
+      filesource: '../../blog/excellence-christ-dev.md',
+      createDay: "27",
+      createMonth: 'August',
       createYear: "2020"
-    },
+    }/*,
     {
       id: 4,
       title: 'Boost your post for increasing sales.',
