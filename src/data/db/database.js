@@ -105,6 +105,14 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: "This Website",
+      subtitle: "An SPA, using the ReactJS Framework, which represents my official portfolio",
+      imageUrl: "/images/amc-site-project.jpg",
+      largeImageUrl: ["/images/amc-site-project.jpg"],
+      url: 'https://adriancallies.com'
+    },    
+    {
+      id: 2,
       title: "The New Home Realty App 2.0",
       subtitle: "A simple web application for a private Real Estate company (Still in beta)",
       imageUrl: "/images/warning-image.jpg",
