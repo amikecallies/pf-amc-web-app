@@ -350,6 +350,15 @@ const database = {
   blogs: [
     {
       id: 1,
+      title: 'A Simple Introduction',
+      featuredImage: '/images/neverland.jpg',
+      filesource: '../../blog/a-simple-introduction.md',
+      createDay: "28",
+      createMonth: 'August',
+      createYear: "2020"
+    },/*    
+    {
+      id: 2,
       title: 'Coding for Christ!',
       featuredImage: '/images/typing-image.jpg',
       filesource: '../../blog/coding-4-christ.md',
@@ -358,7 +367,7 @@ const database = {
       createYear: "2020"
     },
     {
-      id: 2,
+      id: 3,
       title: 'Our "Code" is not our own',
       featuredImage: '/images/blue-matrix-code.jpg',
       filesource: '../../blog/our-work-not-ours.md',
@@ -367,23 +376,14 @@ const database = {
       createYear: "2020"
     },
     {
-      id: 3,
+      id: 4,
       title: 'The Dev\'s excellence of Christ',
       featuredImage: '/images/follow-me-christ.jpg',
       filesource: '../../blog/excellence-christ-dev.md',
       createDay: "27",
       createMonth: 'August',
       createYear: "2020"
-    }/*,
-    {
-      id: 4,
-      title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/boost-your-post-for-increasing-sales.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
+    }
     {
       id: 5,
       title: 'Difference between GatsbyJS & NextJS.',
