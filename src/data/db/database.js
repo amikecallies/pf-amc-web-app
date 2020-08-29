@@ -31,8 +31,13 @@ const database = {
     {
       title: "Back-End Development",
       icon: 'code',
-      details: "Rising proficiency in developing REST API'S with a passion for building scalable Microservices for large distributed systems."
-    }
+      details: "Rising proficiency in developing REST API'S with a passion for building scalable Microservices for large distributed systems. Prior exeperience consist of working with relational databases."
+    },
+    {
+      title: "Customer Care",
+      icon: 'customer',
+      details: "Focused to serve customers and clients well with with empathy and strong communication."
+    }    
   ],
   reviews: [
     {
@@ -79,15 +84,15 @@ const database = {
     },
     {
       title: "Javascript",
-      value: 75
-    },
-    {
-      title: "C#",
       value: 70
     },
     {
+      title: "C#",
+      value: 80
+    },
+    {
       title: "ReactJS",
-      value: 65
+      value: 70
     },
     {
       title: "Java",
@@ -99,7 +104,7 @@ const database = {
     }, 
     {
       title: "NoSQL",
-      value: 50
+      value: 65
     }    
   ],
   portfolios: [
@@ -364,14 +369,14 @@ const database = {
       createDay: "28",
       createMonth: 'August',
       createYear: "2020"
-    },/*    
+    },    
     {
       id: 2,
       title: 'Coding for Christ!',
       featuredImage: '/images/typing-image.jpg',
       filesource: '../../blog/coding-4-christ.md',
-      createDay: "25",
-      createMonth: 'August',
+      createDay: "2",
+      createMonth: 'October',
       createYear: "2020"
     },
     {
@@ -379,10 +384,10 @@ const database = {
       title: 'Our "Code" is not our own',
       featuredImage: '/images/blue-matrix-code.jpg',
       filesource: '../../blog/our-work-not-ours.md',
-      createDay: "27",
-      createMonth: 'August',
+      createDay: "15",
+      createMonth: 'October',
       createYear: "2020"
-    },
+    }/*,
     {
       id: 4,
       title: 'The Dev\'s excellence of Christ',
