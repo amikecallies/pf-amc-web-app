@@ -50,7 +50,7 @@ const database = {
     },
     {
       id: 2,
-      content: "Kristin's Review.",
+      content: "Coming soon...",
       author: {
         name: 'Kristin Beardsley',
         designation: 'Sr. Recruiter, Apple'
@@ -66,7 +66,7 @@ const database = {
     },
     {
       id: 4,
-      content: "Chuck's Review.",
+      content: "Coming soon...",
       author: {
         name: 'Chuck Lohr',
         designation: 'Software Development Consultant, CalPortland Company'
