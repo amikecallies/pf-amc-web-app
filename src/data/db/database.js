@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Adrian Callies',
-    aboutContent: "I am a software engineer. I can provide clean code that is optimal but simple. I also build dynamic applications to serve people's needs in a world that is technologically changing...",
+    aboutContent: "I am a software engineer, who provides clean code that is optimal but simple. I build dynamic applications to serve people's needs in a world that is technologically changing...",
     age: 25,
     phone: '210-387-4999',
     nationality: 'African-American',
@@ -50,10 +50,10 @@ const database = {
     },
     {
       id: 2,
-      content: "Coming soon...",
+      content: "Adrian’s positive spirit, methodical approach to problem solving, and strong technical aptitude makes him powerhouse in any situation. He truly knows the meaning of Teamwork and Commitment.",
       author: {
-        name: 'Kristin Beardsley',
-        designation: 'Sr. Recruiter, Apple'
+        name: 'Kristin from Silicon Valley',
+        designation: 'Anonymous Company'
       }
     },
     {
@@ -63,7 +63,7 @@ const database = {
         name: 'Nicholas Chera',
         designation: 'Software Engineer, Google'
       }
-    },
+    }/*,
     {
       id: 4,
       content: "Coming soon...",
@@ -71,7 +71,7 @@ const database = {
         name: 'Chuck Lohr',
         designation: 'Software Development Consultant, CalPortland Company'
       }
-    }    
+    }  */  
   ],
   skills: [
     {

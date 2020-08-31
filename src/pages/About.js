@@ -86,10 +86,10 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a software developer. I am capable of building and maintaing apps
+                  A Full-Stack Engineer who builds and maintains apps
                   that consist of clean code, robustness, and are optimal
-                  in design. I can work on various sides of the stack (Front & Back), which are equally important
-                  to me in my craft. I've specialized in web development for the past several years
+                  in design. I work on various layers of the stack which are equally important
+                  to me in developing software. I've specialized in web development for the past several years
                   but the mobile world is a journey I've just started to explore.
                 </p>
                 <ul>
