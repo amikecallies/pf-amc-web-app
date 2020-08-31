@@ -111,7 +111,7 @@ const database = {
     {
       id: 1,
       title: "This Website",
-      subtitle: "An SPA, using the ReactJS Framework, which represents my official portfolio",
+      subtitle: "An SPA, using the ReactJS Framework, which represents my official portfolio.",
       imageUrl: "/images/amc-site-project.jpg",
       largeImageUrl: ["/images/amc-site-project.jpg"],
       url: 'https://adriancallies.com'
@@ -119,22 +119,19 @@ const database = {
     {
       id: 2,
       title: "The New Home Realty App 2.0",
-      subtitle: "A simple web application for a private Real Estate company (Still in beta)",
+      subtitle: "A simple web application for a private Real Estate company (Still in beta).",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
       url: 'https://inspiring-borg-b234a2.netlify.app' //http://newhomerealtytx.com
-    }/*,
-    {
-      id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
     },
+    {
+      id: 3,
+      title: "The Relentless Performance Training App 2.0",
+      subtitle: "A simple web application for a private Fitness Organization (Still in beta).",
+      imageUrl: "/images/warning-image.jpg",
+      largeImageUrl: ["/images/warning-image.jpg"],
+      url: 'https://peaceful-hermann-30f210.netlify.app/' //Fitness
+    }/*,
     {
       id: 3,
       title: "Tea & Coffee Mug",
