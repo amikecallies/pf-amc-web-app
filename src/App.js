@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.scss";
@@ -8,6 +9,8 @@ import Portfolios from "./pages/Portfolios";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import BlogDetails from "./pages/BlogDetails";
+import ReactGA from 'react-ga';
+
 
 function App() {
   return (
@@ -23,6 +26,11 @@ function App() {
       </Switch>
     </BrowserRouter>
   );
+}
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview(Home);
 }
 
 export default App;
