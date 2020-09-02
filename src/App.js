@@ -11,6 +11,10 @@ import Contact from "./pages/Contact";
 import BlogDetails from "./pages/BlogDetails";
 import ReactGA from 'react-ga';
 
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview(Home);
+}
 
 function App() {
   return (
@@ -26,11 +30,6 @@ function App() {
       </Switch>
     </BrowserRouter>
   );
-}
-
-function initializeReactGA() {
-    ReactGA.initialize('UA-176707724-1');
-    ReactGA.pageview('./pages/Home');
 }
 
 export default App;
