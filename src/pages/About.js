@@ -8,8 +8,15 @@ import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import Service from '../components/Service';
 import Testimonial from '../components/Testimonial';
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview('/AboutPage');
+}
 
 function About(){
+  initializeReactGA();
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);
