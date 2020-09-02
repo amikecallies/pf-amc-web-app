@@ -10,7 +10,7 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
-    ReactGA.pageview('/AboutPage');
+    ReactGA.pageview('/ResumePage');
 }
 
 function Resumes(){

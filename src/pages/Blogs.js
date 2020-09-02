@@ -4,8 +4,15 @@ import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import BlogsView from "../components/BlogsView";
 import Pagination from "../components/Pagination";
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview('/BlogsPage');
+}
 
 function Blogs() {
+  initializeReactGA();
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);

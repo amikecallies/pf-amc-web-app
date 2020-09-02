@@ -17,7 +17,7 @@ function initializeReactGA() {
 }
 
 function App() {
-  initializeReactGA();
+  initializeReactGA()
   return (
     <BrowserRouter>
       <Switch>

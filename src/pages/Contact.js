@@ -4,8 +4,15 @@ import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import submitEmail from "./SubmitEmail";
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview('/ContactPage');
+}
 
 function Contact(){
+  initializeReactGA();
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
   const [address, setAddress] = useState([]);

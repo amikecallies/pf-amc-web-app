@@ -4,8 +4,15 @@ import ReactMarkdown from "react-markdown/with-html";
 import axios from "axios";
 import Disqus from "disqus-react";
 import Layout from "../components/Layout";
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview('/BlogDetailsPage');
+}
 
 function BlogDetails(props) {
+  initializeReactGA();
   const [content, setContent] = useState("");
   const blogId = props.match.params.id;
   const blogFile = props.match.params.title; 

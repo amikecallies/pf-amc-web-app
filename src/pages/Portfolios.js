@@ -4,8 +4,15 @@ import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import Pagination from "../components/Pagination";
 import PortfoliosView from "../components/PortfoliosView";
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.pageview('/PortfolioPage');
+}
 
 function Portfolios() {
+  initializeReactGA();
   const [portfolios, setPortfoios] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [portfoliosPerPage] = useState(9);
