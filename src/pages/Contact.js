@@ -12,7 +12,7 @@ function initializeReactGA() {
 }
 
 function Contact(){
-  initializeReactGA();
+  initializeReactGA()
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
   const [address, setAddress] = useState([]);

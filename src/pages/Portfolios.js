@@ -12,7 +12,7 @@ function initializeReactGA() {
 }
 
 function Portfolios() {
-  initializeReactGA();
+  initializeReactGA()
   const [portfolios, setPortfoios] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [portfoliosPerPage] = useState(9);

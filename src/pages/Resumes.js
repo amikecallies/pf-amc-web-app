@@ -14,7 +14,7 @@ function initializeReactGA() {
 }
 
 function Resumes(){
-  initializeReactGA();
+  initializeReactGA()
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);

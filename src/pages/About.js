@@ -16,7 +16,7 @@ function initializeReactGA() {
 }
 
 function About(){
-  initializeReactGA();
+  initializeReactGA()
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);

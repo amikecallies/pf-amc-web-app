@@ -12,7 +12,7 @@ function initializeReactGA() {
 }
 
 function Blogs() {
-  initializeReactGA();
+  initializeReactGA()
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);

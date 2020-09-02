@@ -12,7 +12,7 @@ function initializeReactGA() {
 }
 
 function BlogDetails(props) {
-  initializeReactGA();
+  initializeReactGA()
   const [content, setContent] = useState("");
   const blogId = props.match.params.id;
   const blogFile = props.match.params.title; 
