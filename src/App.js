@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.scss";
@@ -13,10 +13,11 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
-    ReactGA.pageview(Home);
+    ReactGA.pageview('/HomePage');
 }
 
 function App() {
+  initializeReactGA()
   return (
     <BrowserRouter>
       <Switch>
