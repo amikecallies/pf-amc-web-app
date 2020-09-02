@@ -30,7 +30,7 @@ function App() {
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
-    ReactGA.pageview(Home);
+    ReactGA.pageview('./pages/Home');
 }
 
 export default App;
