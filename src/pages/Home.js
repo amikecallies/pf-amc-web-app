@@ -3,8 +3,16 @@ import axios from 'axios';
 import Particles from "react-particles-js";
 import Socialicons from "../components/Socialicons";
 import Layout from "../components/Layout";
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-176707724-1');
+    ReactGA.set({ siteSpeedSampleRate: 100});
+    ReactGA.pageview('/HomePage');
+}
 
 function Home(){
+  initializeReactGA();
   const [information, setInformation] = useState("");
   const paramConfig = {
     particles: {

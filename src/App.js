@@ -13,11 +13,12 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
+    ReactGA.set({ siteSpeedSampleRate: 100});
     ReactGA.pageview('/HomePage');
 }
 
 function App() {
-  initializeReactGA()
+  initializeReactGA();
   return (
     <BrowserRouter>
       <Switch>
