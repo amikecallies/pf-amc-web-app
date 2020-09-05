@@ -8,11 +8,12 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
+    ReactGA.set({ siteSpeedSampleRate: 100});
     ReactGA.pageview('/PortfolioPage');
 }
 
 function Portfolios() {
-  initializeReactGA()
+  initializeReactGA();
   const [portfolios, setPortfoios] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [portfoliosPerPage] = useState(9);

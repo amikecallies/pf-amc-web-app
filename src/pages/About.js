@@ -12,11 +12,12 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
+    ReactGA.set({ siteSpeedSampleRate: 100});
     ReactGA.pageview('/AboutPage');
 }
 
 function About(){
-  initializeReactGA()
+  initializeReactGA();
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);

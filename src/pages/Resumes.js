@@ -10,11 +10,12 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
+    ReactGA.set({ siteSpeedSampleRate: 100});
     ReactGA.pageview('/ResumePage');
 }
 
 function Resumes(){
-  initializeReactGA()
+  initializeReactGA();
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);

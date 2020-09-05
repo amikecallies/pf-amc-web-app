@@ -8,11 +8,12 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-176707724-1');
+    ReactGA.set({ siteSpeedSampleRate: 100});
     ReactGA.pageview('/ContactPage');
 }
 
 function Contact(){
-  initializeReactGA()
+  initializeReactGA();
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
   const [address, setAddress] = useState([]);
