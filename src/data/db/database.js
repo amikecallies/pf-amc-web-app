@@ -122,7 +122,7 @@ const database = {
       subtitle: "A simple web application for a private Real Estate company (Still in beta).",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
-      url: 'https://inspiring-borg-b234a2.netlify.app' //http://newhomerealtytx.com
+      url: 'https://nhr-web-app-v2.herokuapp.com/' //http://newhomerealtytx.com
     },
     {
       id: 3,
