@@ -122,7 +122,7 @@ const database = {
       subtitle: "A simple web application for a private Real Estate company (Still in beta).",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
-      url: 'https://nhr-web-app-v2.herokuapp.com/' //http://newhomerealtytx.com
+      url: 'https://newhomerealtytx.com'
     },
     {
       id: 3,
@@ -130,7 +130,7 @@ const database = {
       subtitle: "A simple web application for a private Fitness Organization (Still in beta).",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
-      url: 'https://peaceful-hermann-30f210.netlify.app/' //Fitness
+      url: 'https://relentless-web-app-v2.herokuapp.com/' //https://www.therelentlesspt.com
     }/*,
     {
       id: 3,
