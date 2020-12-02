@@ -122,7 +122,7 @@ const database = {
       subtitle: "A simple web application for a private Real Estate company (Still in beta).",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
-      url: 'https://newhomerealtytx.com'
+      url: 'https://www.newhomerealtytx.com/'
     },
     {
       id: 3,
@@ -300,33 +300,40 @@ const database = {
       {
         id: 1,
         year: "2020 - Present",
+        position: "Software Engineer",
+        company: "ETAP",
+        details: ""
+      },      
+      {
+        id: 2,
+        year: "2020 - 2020",
         position: "Information Technology Associate",
         company: "Ingram Micro",
         details: ""
       },
       {
-        id: 2,
+        id: 3,
         year: "2018 - 2020",
         position: "Associate Software Developer",
         company: "CalPortland",
         details: ""
       },
       {
-        id: 3,
+        id: 4,
         year: "2018",
         position: "Software Developer Intern",
         company: "CalPortland",
         details: ""
       },
       {
-        id: 4,
+        id: 5,
         year: "2017",
         position: "Software Developer Intern",
         company: "CalPortland",
         details: ""
       },
       {
-        id: 5,
+        id: 6,
         year: "2016",
         position: "Software Developer Intern",
         company: "Power Settlements",
