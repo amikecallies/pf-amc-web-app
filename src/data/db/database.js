@@ -131,14 +131,15 @@ const database = {
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
       url: 'https://relentless-web-app-v2.herokuapp.com/' //https://www.therelentlesspt.com
-    }/*,
-    {
-      id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
     },
+    {
+      id: 4,
+      title: "The Men Behind the March: Book Promotion Site",
+      subtitle: "A simple single page web application for a published book that is on sale.",
+      imageUrl: "/images/warning-image.jpg",
+      largeImageUrl: ["/images/warning-image.jpg"],
+      url: 'https://man-behind-march-app.herokuapp.com/'
+    }/*,
     {
       id: 4,
       title: "Pen Holder",
