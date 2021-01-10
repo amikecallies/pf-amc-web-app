@@ -134,7 +134,7 @@ const database = {
     },
     {
       id: 4,
-      title: "The Men Behind the March: Book Promotion Site",
+      title: "The Man Behind the March: Book Promotion Site",
       subtitle: "A simple single page web application for a published book that is on sale.",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
