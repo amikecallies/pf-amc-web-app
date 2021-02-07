@@ -128,8 +128,8 @@ const database = {
       id: 3,
       title: "The Relentless Performance Training App 2.0",
       subtitle: "A simple web application for a private Fitness Organization (Still in beta).",
-      imageUrl: "/images/warning-image.jpg",
-      largeImageUrl: ["/images/warning-image.jpg"],
+      imageUrl: "/images/relentless-pt-site-project.jpg",
+      largeImageUrl: ["/images/relentless-pt-site-project.jpg"],
       url: 'https://relentless-web-app-v2.herokuapp.com/' //https://www.therelentlesspt.com
     },
     {
