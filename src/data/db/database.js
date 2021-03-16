@@ -120,8 +120,8 @@ const database = {
       id: 2,
       title: "The New Home Realty App 2.0",
       subtitle: "A simple web application for a private Real Estate company.",
-      imageUrl: "/images/warning-image.jpg",
-      largeImageUrl: ["/images/warning-image.jpg"],
+      imageUrl: "/images/nhr-site-project.jpg",
+      largeImageUrl: ["/images/nhr-site-project.jpg"],
       url: 'https://www.newhomerealtytx.com/'
     },
     {
