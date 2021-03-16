@@ -119,7 +119,7 @@ const database = {
     {
       id: 2,
       title: "The New Home Realty App 2.0",
-      subtitle: "A simple web application for a private Real Estate company (Still in beta).",
+      subtitle: "A simple web application for a private Real Estate company.",
       imageUrl: "/images/warning-image.jpg",
       largeImageUrl: ["/images/warning-image.jpg"],
       url: 'https://www.newhomerealtytx.com/'
@@ -127,7 +127,7 @@ const database = {
     {
       id: 3,
       title: "The Relentless Performance Training App 2.0",
-      subtitle: "A simple web application for a private Fitness Organization (Still in beta).",
+      subtitle: "A simple web application for a private Fitness Organization.",
       imageUrl: "/images/relentless-pt-site-project.jpg",
       largeImageUrl: ["/images/relentless-pt-site-project.jpg"],
       url: 'https://relentless-web-app-v2.herokuapp.com/' //https://www.therelentlesspt.com
