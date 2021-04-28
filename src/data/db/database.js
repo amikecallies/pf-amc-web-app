@@ -307,34 +307,27 @@ const database = {
       },      
       {
         id: 2,
-        year: "2020 - 2020",
-        position: "Information Technology Associate",
-        company: "Ingram Micro",
-        details: ""
-      },
-      {
-        id: 3,
         year: "2018 - 2020",
         position: "Associate Software Developer",
         company: "CalPortland",
         details: ""
       },
       {
-        id: 4,
+        id: 3,
         year: "2018",
         position: "Software Developer Intern",
         company: "CalPortland",
         details: ""
       },
       {
-        id: 5,
+        id: 4,
         year: "2017",
         position: "Software Developer Intern",
         company: "CalPortland",
         details: ""
       },
       {
-        id: 6,
+        id: 5,
         year: "2016",
         position: "Software Developer Intern",
         company: "Power Settlements",
