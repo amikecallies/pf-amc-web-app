@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "dependencies": {
     "aws-sdk": "^2.739.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.2",
     "axios-mock-adapter": "^1.17.0",
     "bootstrap": "^4.3.1",
     "canvas-prebuilt": "^2.0.0-alpha.14",
@@ -12,8 +12,8 @@
     "history": "^5.0.0",
     "jest": {
       "setupFiles": [
-        "<rootDir>\\src\\test-setup.js",
-        "<rootDir>\\config\\polyfills.js"
+        "<rootDir>\src\test-setup.js",
+        "<rootDir>\config\polyfills.js"
       ]
     },
     "node-sass": "^4.12.0",
