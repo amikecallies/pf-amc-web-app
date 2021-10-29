@@ -75,7 +75,7 @@ const database = {
   ],
   skills: [
     {
-      title: "HTML5/CSS",
+      title: "HTML/CSS",
       value: 75
     },
     {
