@@ -12,11 +12,11 @@
     "history": "^5.0.0",
     "jest": {
       "setupFiles": [
-        "<rootDir>\\src\\test-setup.js",
-        "<rootDir>\\config\\polyfills.js"
+        "<rootDir>\src\test-setup.js",
+        "<rootDir>\config\polyfills.js"
       ]
     },
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-feather": "^2.0.3",
