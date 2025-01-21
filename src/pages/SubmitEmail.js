@@ -7,6 +7,8 @@ function SubmitEmail(userName, userEmail, userSubject, userMessage) {
   var aws = require('aws-sdk');
 
   const aws_cognito_credentials = process.env.AWS_COGNITO_KEY;
+
+  console.log(aws_cognito_credentials);
   
   // Provide the full path to your config.json file. 
   //aws.config.loadFromPath('../config.json');
