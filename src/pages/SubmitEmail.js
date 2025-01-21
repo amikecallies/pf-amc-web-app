@@ -6,16 +6,16 @@ function SubmitEmail(userName, userEmail, userSubject, userMessage) {
   
   var aws = require('aws-sdk');
 
-  const aws_cognito_credentials = process.env.AWS_COGNITO_KEY;
+  const environment = process.env;
 
-  console.log(aws_cognito_credentials);
+  console.log(environment);
   
   // Provide the full path to your config.json file. 
   //aws.config.loadFromPath('../config.json');
   // Initialize the Amazon Cognito credentials provider
   aws.config.region = 'us-west-2'; // Region
   aws.config.credentials = new aws.CognitoIdentityCredentials({
-      IdentityPoolId: aws_cognito_credentials,
+      IdentityPoolId: 'us-west-2:5fbc0fc2-75c8-4cc2-a6fd-5b4c74a62d6e',
 });  
   
   // Replace sender@example.com with your "From" address.
